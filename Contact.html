@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>My Contact</title>
+        <style>
+            body {
+                font-size: large;
+            }
+            h1 {
+                color: #b94b14;
+            }
+            h3 {
+               color: rgba(0, 0, 0, 0.844);
+            }
+        button {
+           padding: 10px;
+           font-size: 20px;
+           background-color: rgb(248, 157, 111);
+           cursor: pointer;
+        }
+        button:hover {
+            color:white;
+            background-color: firebrick;
+            outline: solid 2px white;
+            outline-offset: -5px;
+        }
+        img{
+            margin: -13px auto;
+        }
+        </style>
+
+    </head>
+    <body>
+        <h1>My Contact Details <img src="images/one.png" alt="" height="60px" style="border-radius:50%;"> </h1>
+        <p>My Email Address & Phone num </p>
+        <p>0744312897</p>
+        <p>mahfooz3t@gmail.com</p>
+        <hr>
+        <h3>Please fill up this form if you want to enroll</h3>
+    <form action="mailto:mahfooz3t@gmail.com" method="post" enctype="text/plain">
+     <p><label for="">Your Name:</label>
+     <input type="text" name="yourName" value=""></p>
+     <p><label for="">Your Email:</label>
+     <input type="email" name="yourEamil" value=""><br></p>
+     <label for="">Your Message:</label><br>
+     <textarea name="yourMessage" id="" cols="20" rows="10" placeholder="Enter your message here!"></textarea><br>
+     <p><input type="submit"> <input type="reset"></p> 
+    </form>
+    <p><a href="index.html"><button>Back to home</button></a></p>
+    </body>
+</html>
